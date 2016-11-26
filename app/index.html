@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Simple Javascript Tetris</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="score">
+		Score
+		<div id="score-box" class="score-number">
+
+		</div>
+	</div>
+	<div class="level">
+		Niveau
+		<div id="level-box" class="level-number">
+
+		</div>
+	</div>
+	<div id="game-board" class="board">
+	</div>
+
+	<!-- Game Config file -->
+	<script type="text/javascript" src="config.js"></script>
+
+	<!-- Common Utils -->
+	<script type="text/javascript" src="modules/utils/util.js"></script>
+
+	<!-- Tetris UI -->
+	<script type="text/javascript" src="modules/ui/ui.js"></script>
+
+	<!-- Tetris Board modules -->
+	<script type="text/javascript" src="modules/board/board.js"></script>
+	<script type="text/javascript" src="modules/board/board.dfs.js"></script>
+	<script type="text/javascript" src="modules/board/board.coordinate.js"></script>
+
+	<!-- Tetris Block Module -->
+	<script type="text/javascript" src="modules/block/block.js"></script>
+
+	<!-- Main File : Tetris Game Execution Module -->
+	<script type="text/javascript" src="modules/game-execution/game-execution.js"></script>
+</body>
+</html>

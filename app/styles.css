@@ -1,0 +1,67 @@
+.board {
+	position: relative;
+	margin: 100px auto 0 auto;
+	border-radius: 15px 15px 15px 15px;
+    border: 2px solid #d9d7d7;
+}
+
+.piece {
+	position: absolute;
+	width: 30px;
+	height: 30px;	
+	opacity: 1;
+	/* debug purpose */
+	text-align: center;
+}
+
+.score {
+	position: absolute;
+	font-size: 70px;
+	top: 50px;
+	left: 200px;
+	color: #abcabc;
+}
+
+.score-number {
+	font-size: 120px;
+	font-weight: bold;
+}
+
+.level {
+	position: absolute;
+	font-size: 70px;
+	top: 320px;
+	left: 200px;
+    color: rgba(0, 84, 243, 0.22);
+}
+
+.level-number {
+	font-size: 120px;
+	font-weight: bold;
+}
+
+.level, .score, .board {	
+	background-color: white;
+	opacity: 0.92;
+}
+
+.level, .score {
+	width: 200px;
+	padding: 20px;
+}
+
+.game-over {
+	position: absolute;
+    top: 38%;
+    left: 17%;
+    font-size: 52px;
+    color: #ecaeca;
+    font-weight: bold;
+}
+
+a.retry {    
+	font-size: 37px;
+    cursor: pointer;
+    color: #9bdf63;
+    margin-left: 5
+}

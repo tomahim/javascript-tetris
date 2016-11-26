@@ -1,0 +1,14 @@
+{
+  "name": "javascript-tetris",
+  "version": "1.0.0",
+  "description": "Javascript Tetris implementation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomahim",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
