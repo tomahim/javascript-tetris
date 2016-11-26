@@ -1,4 +1,10 @@
-var assert = chai.assert;
+if (typeof require !== 'undefined') {
+	var assert = require('chai').assert,
+		AppUtil = require('../../../app/modules/utils/util.js').AppUtil;
+} else {
+	var assert = chai.assert,
+		AppUtil = App.Util;
+}
 
 describe('App.Util', function() {
 
@@ -20,7 +26,7 @@ describe('App.Util', function() {
   describe('#getNbColors()', function() {
   	
     it('should return the number of available colors in the config object', function() {
-      assert.equal(5, App.Util.getNbColors());
+  		assert.equal(5, AppUtil.getNbColors());
     });
 
   });

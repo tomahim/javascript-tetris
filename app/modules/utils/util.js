@@ -40,3 +40,7 @@ App.Util = (function() {
 
 	return self;
 })();
+
+if (typeof exports !== 'undefined') {
+   exports.AppUtil = App.Util;
+}
