@@ -4,12 +4,14 @@
   "description": "Javascript Tetris implementation",
   "main": "index.html",
   "scripts": {
-    "test": "mocha \"test/**/*.js\""
+    "test": "mocha \"test/**/*.js\"",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha \"test/**/*.js\" -- -R spec"
   },
   "author": "tomahim",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   }
 }
