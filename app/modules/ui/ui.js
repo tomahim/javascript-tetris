@@ -90,9 +90,9 @@ App.UI = (function() {
 
 	var currentBackground = null;
 
-	function setBackground() {	
-		if (!currentBackground) {
-			currentBackground = config.pictures[1];
+	function setBackground() {
+		if (!config.randomImage || !currentBackground) {
+			currentBackground = config.pictures[0];
 		} else {
 			currentBackground = config.pictures[App.Util.getRandomInt(0, 3)];
 		}

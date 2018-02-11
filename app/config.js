@@ -36,12 +36,9 @@ var config = {
 		ROTATE : 'ROTATE'
 	},
 	pictures : [
-		'resources/bg-1.jpg',
-		'resources/bg-2.jpg',
-		'resources/bg-3.jpg',
-		'resources/bg-4.jpg',
-		'resources/bg-5.jpg'
+		'resources/tetris.png'
 	],
+	randomImage: false,
 	savedBoard : [
 		/*[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],

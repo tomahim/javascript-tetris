@@ -3,6 +3,7 @@
 	margin: 100px auto 0 auto;
 	border-radius: 15px 15px 15px 15px;
     border: 2px solid #d9d7d7;
+    padding: 1px;
 }
 
 .piece {
@@ -17,9 +18,11 @@
 .score {
 	position: absolute;
 	font-size: 70px;
-	top: 50px;
+	top: 110px;
 	left: 200px;
 	color: #abcabc;
+	border-radius: 15px 15px 15px 15px;
+    border: 2px solid #d9d7d7;
 }
 
 .score-number {
@@ -30,9 +33,11 @@
 .level {
 	position: absolute;
 	font-size: 70px;
-	top: 320px;
+	top: 440px;
 	left: 200px;
     color: rgba(0, 84, 243, 0.22);
+	border-radius: 15px 15px 15px 15px;
+    border: 2px solid #d9d7d7;
 }
 
 .level-number {
@@ -42,7 +47,7 @@
 
 .level, .score, .board {	
 	background-color: white;
-	opacity: 0.92;
+	opacity: 0.98;
 }
 
 .level, .score {
